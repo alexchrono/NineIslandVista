@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nine Island Vista</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <SCRIPT language="JavaScript">
+            var password;
+            var pass1="baby123";
+            var pass2=" baby123"
+            password=prompt('Enter Password',' ');
+            if (password==pass1 || password==pass2)
+            alert('Correct Password! Click OK to Enter!');
+            else { window.location="http://YOURDOMAIN.com/";
+            }
+            </SCRIPT>
+        <script>
+            // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+        let vg = window.innerHeight * 0.01;
+        // Then we set the value in the --vh custom property to the root of the document
+        document.documentElement.style.setProperty('--vz', `${vg}px`);
+            </script>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="jquery.fittext.js"></script> -->
+    <script> jQuery("#responsive_headline").fitText();
+    </script>
+
+
+
+    <link href="./css.css" rel="stylesheet">
+    <style>
+
+.container-fluid {
+  display:flex;
+  min-height: calc(var(--vz, 1vh) * 100);
+  flex-direction: column;
+  }
+body {
+  background: url("pictures/lookingoutdoublewidedoors.webp") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+        @media screen and (min-width:0px) and (max-width:480px) {
+
+            .containerHtn {
+                display: flex;
+                visibility: visible;
+                justify-content: center;
+                align-content: center;
+                text-align: center;
+
+            }
+            .seashell {
+                width: 4vw;
+            }
+            .box {
+                display: none;
+                visibility: hidden;
+            }
+
+
+            .grower {
+            max-height: 200px;
+            }
+        }
+
+        @media screen and (min-width:481px) and (max-width:768px) {
+            .h1 {
+                display: inline-block;
+            }
+
+
+            .containerHtn {
+                display: flex;
+                visibility: visible;
+                justify-content: center;
+                align-content: center;
+                text-align: center;
+            }
+            .box {
+                display: none;
+                visibility: hidden;
+            }
+
+        }
+
+        @media screen and (min-width:769px) and (max-width:1024px) {
+            .containerHtn {
+                display: flex;
+                visibility: visible;
+                justify-content: center;
+                align-content: center;
+                text-align: center;
+
+            }
+            .box {
+                display: none;
+                visibility: hidden;
+            }
+        }
+
+        @media screen and (min-width:1024px) and (max-width:1200px) {
+
+            .containerHtn {
+                display: none;
+                visibility: hidden;
+            }
+
+            .box {
+                visibility: visible;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                width: 95vw;
+            }
+
+            .seashell {
+                width: 4vw;
+            }
+
+
+        }
+
+
+
+        @media screen and (min-width:1201px) and (max-width:3000px) {
+
+
+            .seashell {
+                width: 5vw;
+            }
+
+            .containerHtn {
+                display: none;
+                visibility: hidden;
+            }
+
+            .box {
+                visibility: visible;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: flex-end;
+
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-12">
+                <div class="fadeinz">
+                    <span class="maintitle">Nine Island Vista</span>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+        <div class="row">
+            <div class="col-8 col-sm-0"></div>
+            <div class="col-4 col-sm-12">
+                <div class="fadeinz2"><span id="phrase" class="text-xs-end">Escape to freedom</phrase>
+                </div>
+            </div>
+        </div>
+
+        <div class="row flex-grow-1"><div class="hidden2"></div>
+            <div class="col-12">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-1.5">
+                    <div class="a1"><a href="./location.html"><img src="./fonts/seashell.png"
+                            class="seashell box1"></a></div>
+                </div>
+                <div class="col-1.5">
+                    <div class="a2">
+                        <h3> <a href="./location.html">Location</a></h3>
+                    </div>
+                </div>
+                <div class="col-1.5">
+                    <div class="a3"><a href="./amenities.html"><img src="./fonts/seashell.png"
+                            class="seashell box3"></a></div>
+                </div>
+                <div class="col-1.5">
+                    <div class="a4">
+                        <h3 class="box4"><a href="./amenities.html">Amenities</a></h3>
+                    </div>
+                </div>
+                <div class="col-1.5">
+                    <div class="a5"><a href="./unit.html"><img src="./fonts/seashell.png" class="seashell box5"></a>
+                    </div>
+                </div>
+                <div class="col-1.5">
+                    <div class="a6">
+                        <h3 class="box6"><a href="./unit.html">Unit</a></h3>
+                    </div>
+                </div>
+                <div class="col-1.5">
+                    <div class="a7"><a href="./availability.html"><img src="./fonts/seashell.png"
+                                class="seashell box7"></a></div>
+                </div>
+                <div class="col-1.5">
+                    <div class="a8">
+                        <h3 class="box8"><a href="./availability.html">Availability </a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="row">
+
+                <div class="col-6 containerHtn"><a href="./location.html"><img src="./fonts/seashell.png" class="seashellz box1 "></a></div>
+
+
+                <div class="col-6 containerHtn"><a href="./amenities.html"><img src="./fonts/seashell.png" class="seashellz box3"></a></div>
+
+            </div>
+
+        <div class="row">
+            <div class="col-6 containerHtn">
+
+                <a href="./location.html"><h3>Location</h3></a>
+
+            </div>
+            <div class="col-6 containerHtn">
+
+                <a href="./amenities.html"><h3>Amenities</h3></a>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6 containerHtn">
+                <a href="./unit.html"><img src="./fonts/seashell.png" class="seashellz box5"></a>
+            </div>
+
+
+
+            <div class="col-6 containerHtn">
+                <a href="./availability.html"><img src="./fonts/seashell.png" class="seashellz box7"></a></div>
+            </div>
+            <div class="row">
+                <div class="col-6 containerHtn">
+
+                    <a href="./unit.html"><h3>Unit</h3></a>
+                    </div>
+
+                <div class='col-6 containerHtn'>
+
+                    <a href="./availability.html"><h3>Availability </h3></a>
+                    </div>
+                </div>
+                <div class="row">
+                <div class="col-12">
+                    </div>
+                        </div>
+                        <div class="row"><div class="col-12"></div></div>
+                        </div>
+</body>
+
+</html>
